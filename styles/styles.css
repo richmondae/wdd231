@@ -1,0 +1,284 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+
+  --heading-font: "Roboto", system-ui;
+  --paragraph-font: "Roboto", system-ui;
+
+  --nav-background-color: var(--primary-color);
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: var(--secondary-color);
+  --nav-hover-background-color: var(--accent1-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid rgb(24, 7, 80);
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header img.selfie {
+  width: 100px;
+  height: auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+
+
+.hamburger {
+  display: none;
+}
+.hamburger {
+    display: block;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    margin-left: auto;
+    z-index: 1000; 
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  /* margin-top: 1em; */
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: #381d2a;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  /* gap: 1em; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  /* gap: 1em; */
+  padding: 10px;
+
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+	text-decoration: none;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    
+}
+
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+.filter-buttons {
+  text-align: center;
+}
+#filter-all:hover, #filter-cse:hover, #filter-wdd:hover {
+  background-color: #0b9653;
+  color: #7e0507;
+}
+main {
+  padding: 0.5em;
+}
+
+section {
+  margin: 1em 0;
+}
+
+h2 {
+  text-align: center;
+  background-color: #381d2a;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.course-work,
+.location,
+.certificate {
+  border: 1px solid #9c1111;
+  border-radius: 5px;
+  padding: 1;
+  background: #f4f4f4;
+}
+
+.certificate .filter-buttons button {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background: #00457c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+figcaption{
+  text-align: center;
+}
+.courses {
+  text-align: center;
+}
+
+.certificate .courses .course-btn {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background: #6d4c41;
+  color: #fff;
+  cursor: pointer;
+}
+
+.project {
+  /* position: relative;
+  right: -15px;
+  top: -30px; */
+  margin: 25px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Horizontally center children */
+  text-align: center; /* Center align text content like the heading and figcaption */
+}
+
+.nigimg {
+  margin-top: 10px;
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .certificate .courses .course-btn {
+    width: 100%;
+  }
+}
+
+/* New Styles for Main and Sections */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.t {
+  text-wrap: nowrap;
+}
+.course-work, 
+.location {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.certificate {
+  grid-column: 1 / -1;
+  background-color: #fafafa;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate {
+    grid-column: auto;
+  }
+}
+
+footer {
+  background: var(--primary-color);
+  grid-column: 1/2;
+  height: 90px;
+  text-align: center;
+  color: #eee;
+  padding: 30px;
+}

@@ -4,14 +4,14 @@
             "name": "Shop LC",
             "address": [
                 {
-                    "street": "100 Michael Angelo Way",
+                    "street": "Ikot Nkebre",
                     "suite": "Suite 200",
-                    "city": "Austin",
-                    "state": "TX",
+                    "city": "Calabar",
+                    "state": "CRS",
                     "zipcode": "78728"
                 }
             ],
-            "phoneNumber": "(512) 852-7000",
+            "phoneNumber": "(+234) 90 2212 3897 ",
             "url": "www.shoplc.com",
             "memLevel": "Silver",
             "highlight": "Delivering Joy! Currenty featuring: Auctions and Live TV.  Prime Christmas shopping experience.",
@@ -28,14 +28,14 @@
             "name": "Invoice Home",
             "address": [
                 {
-                    "street": "600 Congress Ave.",
+                    "street": "Marian Boulevard.",
                     "suite": "Floor 14",
-                    "city": "Austin",
-                    "state": "TX",
+                    "city": "Calabar",
+                    "state": "CRS",
                     "zipcode": "78701"
                 }
             ],
-            "phoneNumber": "(512) 333-2264",
+            "phoneNumber": "(+234) 09 6754 6543",
             "url": "www.invoicehome.com",
             "memLevel": "Gold",
             "highlight": "Free invoice templates. Print and email invoices. Every business can benefit from this business. Check out their services.",
@@ -52,14 +52,14 @@
             "name": "ICode",
             "address": [
                 {
-                    "street": "4301 W William Cannon",
+                    "street": "Ikot Omin Mkpa",
                     "suite": "Suite 200",
-                    "city": "Austin",
-                    "state": "TX",
+                    "city": "Calabar",
+                    "state": "CRS",
                     "zipcode": "78749"
                 }
             ],
-            "phoneNumber": "(512) 301-3721",
+            "phoneNumber": "(+234) 90 3012 1238",
             "url": "www.icodeschool.com",
             "memLevel": "Silver",
             "highlight": "Hands-On Coding Classes & STEM Education for Kids. Get kids off their phones and into a fun STEM education with coding.",
@@ -76,14 +76,14 @@
             "name": "Ascension Seton",
             "address": [
                 {
-                    "street": "1345 Philomena Street",
+                    "street": "Ettagbor Drive ",
                     "suite": "Suite 402",
-                    "city": "Austin",
-                    "state": "TX",
-                    "zipcode": "78723"
+                    "city": "Calabar",
+                    "state": "CRS",
+                    "zipcode": "544021"
                 }
             ],
-            "phoneNumber": "(512) 324-1902",
+            "phoneNumber": "(+234) 90 3243 1902",
             "url": "www.healthcare.ascension.org",
             "memLevel": "Bronze",
             "highlight": "Personalized care when and where you need it.",
@@ -100,14 +100,14 @@
             "name": "Origis Services",
             "address": [
                 {
-                    "street": "6500 River Pl Blvd",
+                    "street": "Atimbo Axis",
                     "suite": "Bldg. 2 Suite 102",
-                    "city": "Austin",
-                    "state": "TX",
-                    "zipcode": "78730"
+                    "city": "Calabar",
+                    "state": "CRS",
+                    "zipcode": "540213"
                 }
             ],
-            "phoneNumber": "(512) 287-7424",
+            "phoneNumber": "(+234) 81 3491 7424",
             "url": "www.origisservices.com",
             "memLevel": "Gold",
             "highlight": "Expertise and Infrastructure to Manage Your Clean Energy Assets. Safeguards against budge overages.",
@@ -124,14 +124,14 @@
             "name": "Vrbo",
             "address": [
                 {
-                    "street": "1011 West 5th Street",
+                    "street": "Ekorinm",
                     "suite": "Suite 300",
-                    "city": "Austin",
-                    "state": "TX",
-                    "zipcode": "78703"
+                    "city": "Calabar",
+                    "state": "CRS",
+                    "zipcode": "540113"
                 }
             ],
-            "phoneNumber": "(512) 684-1100",
+            "phoneNumber": "(+234) 70 7684 1100",
             "url": "www.vrbo.com",
             "memLevel": "Silver",
             "highlight": "Find your place for together. Find spaces that suit your style. Earn rewards just for planning relaxing getaways.",
@@ -148,11 +148,11 @@
             "name": "Bluebonnet Electric Cooperative",
             "address": [
                 {
-                    "street": "155 Electric Avenue",
+                    "street": "Atekong bus stop",
                     "suite": "",
                     "city": "Bastrop",
-                    "state": "TX",
-                    "zipcode": "78602"
+                    "state": "CRS",
+                    "zipcode": "540602"
                 }
             ],
             "phoneNumber": "(888) 622-2583",
@@ -174,19 +174,19 @@
                 {
                     "street": "1 AT&T Center Parkway",
                     "suite": "",
-                    "city": "San Antonio",
-                    "state": "TX",
-                    "zipcode": "78219"
+                    "city": "Calabar South",
+                    "state": "CRS",
+                    "zipcode": "540219"
                 }
             ],
-            "phoneNumber": "(210) 422-5002",
+            "phoneNumber": "(+234) 90 5422 5002",
             "url": "www.nba.com/spurs",
             "memLevel": "Bronze",
             "highlight": "Always playing, always entertaining.",
             "icon": [
                 {
                     "source": "images/spurs-logo.webp",
-                    "altName": "Austin Spurs Logo",
+                    "altName": "Calabar Spurs Logo",
                     "width": 100,
                     "height": 90
                 }

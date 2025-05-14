@@ -31,49 +31,7 @@
     }
 
 
-    /* ------- main section styles ------- */
-    .container {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 10px;
-        row-gap: 10px;
-    }
-
-    #weather-divs {
-        display: grid;
-    }
-
-
-    /* ------- discovery page styles ------- */
-    #discovery {
-        grid-template-columns: repeat(12, 1fr);
-    }
-
-    .gallery {
-        grid-column: 1/9;
-        grid-row: 1/6;
-    }
-
-    .gallery img:hover {
-        box-shadow: 0 0 5px 3px #547AA5;
-        opacity: 0.6;
-    }
-
-    #to-do {
-        grid-column: 9/13;
-        grid-row: 1/7;
-    }
-
-    .population {
-        grid-column: 1/9;
-    }
-
-    #popTable {
-        align-self: self-end;
-    }
-
-
-    /* ------- Directory Styles ------- */
+     /* ------- Directory Styles ------- */
     .list .dircard {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -88,22 +46,7 @@
     }
 
 
-    /* ------- Join page styles ------- */
-    main.joinBack {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 auto;
-        justify-content: center;
-        width: 98%;
-    }
-
-    .form,
-    .benefits {
-        align-self: stretch;
-    }
-
-
-    /* ------- footer styles ------- */
+ /* ------- footer styles ------- */
     footer ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

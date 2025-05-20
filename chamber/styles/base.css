@@ -129,6 +129,165 @@ ul a:hover {
     content: " *";
 }
 
+/* --------------- ***index section main styles*** ---------------*/
+
+/* -------- banner message on index -------- */
+#event-banner {
+    display: none;
+    background-color: #2e2f47;
+    color: #50d8d7;
+    border: 3px ridge #293132;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.moving-words-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.moving-word {
+    display: inline-block;
+    margin-right: 30px;
+    animation: moveWords 5s linear infinite;
+}
+
+@keyframes moveWords {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* ------- main styles ------- */
+main {
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-left: .5%;
+    margin-right: .5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+/* ------- container grid index page ------- */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .2%;
+}
+
+.card,
+.gallery,
+#popTable,
+#to-do,
+.benefits,
+.form {
+    border: 3px ridge #293132;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card h4,
+#duties h3,
+#events h4,
+#weather h3,
+.tracking h3 {
+    color: #50d8d7;
+}
+
+div #downtown #city {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px ridge #293132;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+#duties div {
+    background-color: #2E2F47;
+    border: 2px ridge #547AA5;
+    margin: 2%;
+    color: #50d8d7;
+}
+
+
+/* ------- join button ------- */
+#join {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #65FAFA;
+    font-weight: bolder;
+    color: #383336;
+    border: 2px ridge #547AA5;
+    padding: .3rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+    opacity: .75;
+}
+
+#join:hover {
+    transform: scale(1.2);
+}
+
+
+/* ------- highlights and events section -------*/
+#highlights,
+#events {
+    color: #50d8d7;
+    padding: 1%;
+}
+
+#highlights #businesses,
+#events #eventCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#businesses div,
+#eventCard div {
+    border: 2px ridge #547AA5;
+    background-color: #293132;
+    margin: 2%;
+}
+
+
+/* ------- weather section -------*/
+#weather {
+    background-color: #383336;
+    color: #50d8d7;
+}
+
+.current-cond {
+    text-transform: capitalize;
+}
+
+#weather-icon,
+#forecast-icon {
+    background-color: #50d8d7;
+    border: 2px ridge #547AA5;
+}
+
 
 /* --------------- *** Directory Page styles *** -------------- */
 

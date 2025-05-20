@@ -59,7 +59,6 @@
         font-size: 1.7vw;
     }
 
-
     /* ------- Member Directory page ------- */
     .list .dircard {
         display: grid;
@@ -71,8 +70,32 @@
         font-size: 15px;
     }
 
-    /* -------  footer styles ------- */
-    footer {
-        margin-top: 1%;
-    }
+  /* -------  footer styles ------- */
+footer {
+    margin-top: 3%;
+    background-color: #50d8d7;
+    color: #383336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px ridge #547AA5;
+    padding: 1% 2%; /* Less vertical space */
+    gap: 3rem; /* Spacing between items */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+footer li {
+    padding: 0.5rem 1rem;
+    list-style: none;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: #383336;
+}
+
+#classHome::before {
+    content: "🏠 ";
+}
 }

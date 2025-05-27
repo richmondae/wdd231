@@ -69,6 +69,20 @@
         min-height: 40px;
         font-size: 15px;
     }
+      /* ------- Join page styles ------- */
+    main.joinBack {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        justify-content: center;
+        width: 98%;
+    }
+
+    .form,
+    .benefits {
+        align-self: stretch;
+    }
+
 
   /* -------  footer styles ------- */
 footer {

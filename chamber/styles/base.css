@@ -10,6 +10,48 @@ body {
     font-size: 12px;
     background-color: #f3f1f1;
 }
+/* ---------- dark JS switch mode styles ---------- */
+.dark-mode {
+    background-color: black;
+    color: #50d8d7;
+}
+
+.darkHF {
+    background-color: #2e2f47;
+    color: #50d8d7;
+}
+
+.darkHF li a,
+.darkHF #maps a,
+.darkHF #classHome a {
+    color: #50d8d7;
+}
+
+.logo-dark {
+    background-color: #50d8d7;
+}
+
+
+/* ---------- dark mode button styles ---------- */
+#darkMode {
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    max-width: 50%;
+    border: 2px ridge #293132;
+    background-color: #50d8d7;
+}
+
+#darkMode:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+#modeImg {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+}
+
 
 
 
@@ -407,7 +449,132 @@ div #downtown #city {
 .list section:nth-child(even) {
     background-color: #50d8d7;
 }
+/* --------------- *** Join page sytles *** --------------- */
+main.joinBack {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 1%;
+}
 
+input {
+    background-color: #50d8d7;
+    color: #383336;
+    border: 2px ridge #547AA5;
+}
+
+#levels div {
+    border: 2px ridge #547AA5;
+    background-color: #293132;
+    color: #50d8d7;
+    margin: 2%;
+}
+
+#levels li {
+    padding: 1.5%;
+}
+
+#levels h3 {
+    color: #50d8d7;
+}
+
+form fieldset {
+    display: block;
+    margin: 1%;
+    border: 2px ridge #547AA5;
+    padding: .5rem 2%;
+    background-color: #3d3e4f;
+}
+
+.legend {
+    color: #50d8d7;
+    border: 2px ridge #547AA5;
+    background-color: #383336;
+    margin: 0 1rem;
+    padding: 1%;
+}
+
+#joinForm label {
+    display: block;
+    text-align: left;
+    padding-top: 1rem;
+    color: #50d8d7;
+}
+
+#joinForm textarea {
+    display: block;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    background-color: #50d8d7;
+    border: 2px ridge #547AA5;
+}
+
+#joinForm #memLevel label {
+    padding: 1%;
+}
+
+#joinForm input[type="radio"] {
+    margin: 2%;
+}
+
+#joinForm #contact input,
+#joinForm #business input {
+    width: 100%;
+    padding: .75rem 0;
+}
+
+#joinForm input.submitBtn {
+    font-weight: bolder;
+    width: 96%;
+    padding: .75rem .75rem;
+    margin: 2%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 3px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+#joinForm input.submitBtn:hover::after {
+    content: "👏";
+}
+
+#submitJoin:hover {
+    transform: scale(1.02, 1.02);
+}
+
+#formmessage {
+    display: none;
+    margin: 10px;
+    padding: 0.5rem;
+    color: rgb(105, 2, 2);
+}
+
+form label input[type="email"]:valid {
+    border-left: rgb(0, 100, 0) solid 6px;
+}
+
+form label #position:invalid {
+    border-left: rgb(131, 0, 0) solid 6px;
+}
+
+
+form label.contact input:required,
+form label.business input:required {
+    border-left: rgb(131, 0, 0) solid 6px;
+}
+
+form label.business input:required:valid,
+form label.contact input:required:valid {
+    border-left: rgb(0, 100, 0) solid 6px;
+}
+
+
+/* --------------- *** thankyou page styles *** -------------- */
+
+#thankyou {
+    width: 70%;
+    margin: auto;
+}
 
 
 /* ---------- footer section styles ---------- */

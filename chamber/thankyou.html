@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Meta setting for Chamber Directory page -->
+    <!-- Meta setting for Chamber Thank You page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory of Members - Calabar Chamber - Business Working Together</title>
+    <title>Thanks for Joining Calabar Chamber of Commerce</title>
     <meta name="author" content="Richmond Akpama">
     <meta name="description"
-        content="Directory of Members of the Calabar Chamber maintained by Akpama Richmond for the WDD 231 - Web Frontend Development 1 Course at BYUI.">
+        content="Thankyou Page for Chamber project created and maintained by Richmond Akpama for the WDD 231 - Web Frontend 1 Course at BYUI.">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <meta property="og:title" content="Akpama Richmond - WDD 231 - Web Frontend Development 1">
+    <meta property="og:title" content="Richmond Akpama - WDD 231 - Web Frontend 1">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://richmondae.github.io/wdd231/chamber/images">
+    <meta property="og:image" content="https://richmondae.github.io/wdd231/chamber/images/downtown-medium.webp">
     <meta property="og:url" content="https://richmondae.github.io/wdd231/chamber">
 </head>
 
@@ -26,11 +26,12 @@
     <header id="top">
         <div class="items">
             <!-- header logo -->
-            <img id="logo" src="images/calabar-chamber-logo.webp" alt="Calabar Chamber Logo" loading="lazy" width="150"
+            <img id="logo" src="images/calabar-chamber-logo.webp" alt="Austin Chamber Logo" loading="lazy" width="150"
                 height="150">
 
             <!-- title -->
             <h1 id="title">Calabar Chamber of Commerce</h1>
+
             <!-- dark mode button -->
             <button id="darkMode" onclick="darkMode()">
                 <img id="modeImg" src="images/day-and-night.webp" alt="Dark Mode idcon" width="40" height="40">
@@ -44,29 +45,22 @@
 
         <!-- nav labels -->
         <ul class="navigation">
-            <li><a href="index.html" title="navHome" class="">Home</a></li>
-            <li><a href="discover.html" title="navDiscover" class="">Discover</a></li>
-            <li><a href="directory.html" title="navDirectory" class="active">Directory</a></li>
-            <li><a href="join.html" title="navJoin" class="">Join</a></li>
+            <li><a href="index.html" title="Home" class="">Home</a></li>
+            <li><a href="discover.html" title="Discover" class="">Discover</a></li>
+            <li><a href="directory.html" title="Directory" class="">Directory</a></li>
+            <li><a href="join.html" title="Join" class="">Join</a></li>
         </ul>
     </nav>
 
-    <!-- Switch Buttons for Grid and List Modes -->
-    <main id="directory">
-        <h2 class="head2D">Member Directory</h2>
-        <div class="switch">
-            <button id="grid"><img src="images/grid-icon.webp" alt="Grid Icon" width="50" height="50"></button>
-            <button id="list"><img src="images/list-icon.webp" alt="List Icon" width="50" height="50"></button>
-        </div>
+    <main id="thankyou">
+        <h2 class="head2D">Your request to join has been submitted!</h2>
+        <p>Thank you for your interest and support. We look forward to working with you. We'll reach out to you as soon
+            as we have finsihed processing your request.</p>
 
-        <!-- Member Directory Display Info -->
-        <div id="cards">
-            <!-- Member Card info inserted with members.js file and members.json data -->
-        </div>
     </main>
 
     <!-- footer section -->
-    <footer>
+     <footer>
         <ul>
             <li id="address" class="bottom">Calabar Chamber<br>1234 Professional Street<br>Calabar, XXXXXX</li>
             <li id="name" class="bottom">&copy; <span id="year"></span> *|* Akpama Richmond *|* WDD 231 Project</li>
@@ -75,14 +69,10 @@
             <li><a id="classHome" href="../index.html">Class Home Page</a></li>
         </ul>
     </footer>
-
-
     <!-- script sources for dom manipulation -->
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/members.js"></script>
     <script src="scripts/darkmode.js"></script>
-
 
 </body>
 

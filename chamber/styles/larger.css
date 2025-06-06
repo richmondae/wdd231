@@ -54,7 +54,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #to-do {
+     #to-do {
         height: fit-content;
         font-size: 1.7vw;
     }

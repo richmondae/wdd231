@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta setting for Chamber Discover page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Calabar Chamber - Beautiful Central Paradise</title>
+    <meta name="author" content="Richmond Akpama">
+    <meta name="description"
+        content="Discover Calabar Chamber maintained by Richmond Akpama for the WDD 231 - Web Frontend Development 1.">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="Richmond Akpama - WDD 231 - Web Frontend Development 1">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://richmondae.github.io/wdd231/chamber/images/downtown-medium.webp">
+    <meta property="og:url" content="https://richmondae.github.io/wdd231/chamber">
+</head>
+
+<body>
+    <header id="top">
+        <div class="items">
+            <!-- header logo -->
+            <img id="logo" src="images/calabar-chamber-logo.webp" alt="CalabarChamber Logo" loading="lazy" width="150"
+                height="150">
+
+            <!-- title -->
+            <h1 id="title">Calabar Chamber of Commerce</h1>
+
+            <!-- dark mode button -->
+            <button id="darkMode" onclick="darkMode()">
+                <img id="modeImg" src="images/day-and-night.webp" alt="Dark Mode idcon" width="45" height="45">
+            </button>
+        </div>
+    </header>
+
+    <nav>
+        <!-- hamberger button -->
+        <button id="menu" title="Hamburger Menu"></button>
+
+        <!-- nav labels -->
+        <ul class="navigation">
+            <li><a href="index.html" title="navHome" class="">Home</a></li>
+            <li><a href="discover.html" title="navDiscover" class="active">Discover</a></li>
+            <li><a href="directory.html" title="navDirectory" class="">Directory</a></li>
+            <li><a href="join.html" title="navjoin" class="">Join</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <div id="discovery">
+            <!-- Gallery Pictures With Captions -->
+            <div id="pics" class="gallery">
+                <h2 class="head2D">Gallery</h2>
+                <figure>
+                    <picture>
+                        <source srcset="images/capital-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/capital-medium.webp" media="(max-width: 960px)">
+                        <img id="capital" src="images/capital-large.webp" alt="CRS Capital" width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Crossriver State Capital</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/mountB-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/mountB-medium.webp" media="(max-width: 960px)">
+                        <img id="mountB" src="images/mountB-large.webp" alt="Mount Odukpani" width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Mount Odukpani</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/mckinney-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/mckinney-medium.webp" media="(max-width: 960px)">
+                        <img id="mckinney" src="images/mckinney-large.webp" alt="Kwa Falls"
+                            loading="lazy" width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Kwa Falls</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/bats-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/bats-medium.webp" media="(max-width: 960px)">
+                        <img id="bats" src="images/bats-large.webp" alt="Main Avenue Calabar" loading="lazy"
+                            width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Main Avenue Calabar</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/hamilton-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/hamilton-medium.webp" media="(max-width: 960px)">
+                        <img id="hamilton" src="images/hamilton-large.webp" alt="Tinapa Park" loading="lazy"
+                            width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Tinapa Park</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/bullock-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/bullock-medium.webp" media="(max-width: 960px)">
+                        <img id="bullock" src="images/bullock-large.webp" alt="Calabar Museum" loading="lazy"
+                            width="1200" height="675">
+                    </picture>
+                    <figcaption class="caption">Calabar Museum</figcaption>
+                </figure>
+
+                <figure>
+                    <picture>
+                        <source srcset="images/sxsw-small.webp" media="(max-width: 560px)">
+                        <source srcset="images/sxsw-medium.webp" media="(max-width: 960px)">
+                        <img id="sxsw" src="images/sxsw-large.webp" alt="Calabar fun Festival" loading="lazy" width="1200"
+                            height="675">
+                    </picture>
+                    <figcaption class="caption">Calabar fun Festival</figcaption>
+                </figure>
+            </div>
+
+            <!-- Attractions and Things To Do Section -->
+            <div id="to-do">
+                <h2 class="head2D">Attractions</h2>
+                <div id="goSee">
+                    <section class="attractions">
+                        <h3> Fun fest 2025</h3>
+                        <h4><b>Address: </b>Zilker Park</h4>
+                        <p>The calabar fun Festival brings together artists, industry professionals, and music lovers
+                            from around the world to make connections, elevate their careers, and celebrate the
+                            magic of
+                            live music from legendary performers to the most exciting new talent.</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Calabar Museum</h3>
+                        <h4><b>Address: </b>No 4 Main Avenue</h4>
+                        <p>The Calabar Museum offers 3 full floors of exhibits featuring
+                            everything about Calabar also includes a 3D Imax Experience.</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Calabar Nature & Science Center</h3>
+                        <h4><b>Address: </b>CICC Drive.</h4>
+                        <p>The Calabar Nature & Science Center offers many programs for preschoolers, kids, families,
+                            and
+                            adults with topics ranging from butterflies to caving and much more.</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Marina Resort</h3>
+                        <h4><b>Address: </b> Finger park </h4>
+                        <p>Marina resort race track, concerts, plus COTA Karting. Go carts with speeds up to 45mph. Premier
+                            carting
+                            for all skill levels.</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Calabar Gardens</h3>
+                        <h4><b>Address: </b>Ekorinm Springs Rd.</h4>
+                        <p>Tucked away on 19 acres of land by the road side, these gardens are a lush
+                            sanctuary of koi ponds, live oaks, and prickly cactuses of all shapes and sizes. They
+                            are
+                            composed of
+                            multiple themed gardens</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Kwa Falls</h3>
+                        <h4><b>Address: </b>Akampa</h4>
+                        <p>While the river itself is reason enough to visit, scenic trails wind through
+                            forests,
+                            atop
+                            ridges, and along the riverside. Walk the sandy shores of the Kwa River and climb
+                            on
+                            the
+                            river’s rock formations.</p>
+                    </section>
+                    <section class="attractions">
+                        <h3>Adiabong Lady Lake</h3>
+                        <h4><b>Address: </b>Street Adiaobong.</h4>
+                        <p>It wasn't until they finished the boardwalk on Lady Lake that you could circle the
+                            entire
+                            trail
+                            without a few treks on the road. Now there's a full 10.2 mile loop along the water in
+                            downtown
+                            Calabar.</p>
+                    </section>
+                </div>
+
+                <!-- Chamber News Section -->
+                <h2 class="head2D">News for Calabar</h2>
+                <div id="newsA">
+                    <section class="news">
+                        <h3>Calabar Ranks #5</h3>
+                        <p>We ranked 1st as Nigeria's most future-ready urban hubs across key metrics representing
+                            urban
+                            innovation. calabar-chamber-logo scored highest in the "business and technology" category covering
+                            indicators
+                            like
+                            STEM/tech jobs, startup, R&D, and patents.</p>
+                    </section>
+                    <section class="news">
+                        <h3>The community Global Ranking</h3>
+                        <p>New ranking places Calabar 3rd  globally and 2 in the Country based on overall development
+                            (size
+                            and
+                            maturity) of its venture capital ecosystem.</p>
+                    </section>
+                    <section class="news">
+                        <h3>Standing Out</h3>
+                        <p>Calabar stands out in ranking of Nigeria cities on the tech frontier. The combination of
+                            Calabar's
+                            current
+                            concentration leading-edge skills (ranks 1st) and its momentum (ranks 7th) represents a
+                            powerful
+                            assessment of the competitiveness of its tech workforce.</p>
+                    </section>
+                    <section class="news">
+                        <h3>Exciting Opportunities</h3>
+                        <p>Calabar is #18 metro where new hires from all generations are welcomed at high rates. Each
+                            metro's
+                            hires by generation was divided by its respective population by generation. Metros were
+                            ranked
+                            based
+                            on their local population share of generation hires.</p>
+                    </section>
+                </div>
+                <!-- Visits Tracker and Message -->
+                <h2 class="head2D">Visits</h2>
+                <section class="tracking">
+                    <h3>Visits to Page: <br><span class="visits"></span></h3>
+                    <h4 class="visitor">Hello!<span></span></h4>
+                </section>
+            </div>
+
+
+            <!-- Population Table and Stats -->
+            <div id="popTable" class="population">
+                <h2 class="head2D">Population Growth</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>2010</th>
+                            <th>2020</th>
+                            <th>Change</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Calabar.</td>
+                            <td>3,337,517</td>
+                            <td>4,300,200</td>
+                            <td>28.9%</td>
+                        </tr>
+                        <tr>
+                            <td>oyo.</td>
+                            <td>5,591,589</td>
+                            <td>7,840,900</td>
+                            <td>40.2%</td>
+                        </tr>
+                        <tr>
+                            <td>Anambra.</td>
+                            <td>4,182,032</td>
+                            <td>5,527,800</td>
+                            <td>32.2%</td>
+                        </tr>
+                        <tr>
+                            <td>Lagos.</td>
+                            <td>9,113,600</td>
+                            <td>14,368,000</td>
+                            <td>57.7%</td>
+                        </tr>
+                        <tr>
+                            <td>Kano.</td>
+                            <td>9,401,288</td>
+                            <td>13,076,900</td>
+                            <td>39.0%</td>
+                        </tr>
+                        <tr>
+                            <td>Kaduna.</td>
+                            <td>6,066,562</td>
+                            <td>8,252,400</td>
+                            <td>36.0%</td>
+                        </tr>
+                        <tr>
+                            <td>Rivers.</td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td>40.9%</td>
+                        </tr>
+                        <tr>
+                            <td>Nigeria.</td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td>30.1%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+      <!-- footer section -->
+    <footer>
+        <ul>
+            <li id="address" class="bottom">Calabar Chamber<br>1234 Professional Street<br>Calabar, XXXXXX</li>
+            <li id="name" class="bottom">&copy; <span id="year"></span> *|* Akpama Richmond *|* WDD 231 Project</li>
+            <li id="callUs">Contact Information<br>+234-70-2656-4401</li>
+            <li id="lastModified" class="bottom"></li>
+            <li><a id="classHome" href="../index.html">Class Home Page</a></li>
+        </ul>
+    </footer>
+
+
+    <!-- script sources for dom manipulation -->
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/pageCounter.js"></script>
+
+</body>
+
+</html>

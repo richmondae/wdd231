@@ -171,7 +171,7 @@ ul a:hover {
     content: " *";
 }
 
-/* --------------- ***index section main styles*** ---------------*/
+/* --------------- **index section main styles** ---------------*/
 
 /* -------- banner message on index -------- */
 #event-banner {
@@ -313,6 +313,83 @@ div #downtown #city {
     margin: 2%;
 }
 
+/* --------------- *** discover page main container styles *** ---------------*/
+#discovery {
+    display: grid;
+    column-gap: 1%;
+    row-gap: .1%;
+}
+
+#discovery h2 {
+    margin: 1%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-top: 3px ridge #293132;
+    border-bottom: 3px ridge #293132;
+}
+
+figure {
+    font-weight: bold;
+    margin: 0;
+}
+
+.attractions,
+.tracking {
+    background-color: #383336;
+}
+
+.news {
+    background-color: #293132;
+}
+
+.news,
+.attractions,
+.tracking {
+    color: #50d8d7;
+    border: 2px ridge #547AA5;
+    margin: 1%;
+}
+
+.attractions h3,
+.attractions h4,
+.news h3,
+.news h4,
+.visitor {
+    color: #50d8d7;
+}
+
+#pics,
+#to-do {
+    display: grid;
+}
+
+/* ------- table styles -------*/
+.population table {
+    margin: 1%;
+    width: 98%;
+}
+
+th,
+td {
+    border: 1px ridge #547AA5;
+    padding: 1%;
+}
+
+th {
+    background-color: #3d3e4f;
+    border-bottom: 2px ridge #547AA5;
+}
+
+table {
+    border: 2px ridge #547AA5;
+    border-collapse: collapse;
+    background-color: #2e2f47;
+    color: #50d8d7;
+    padding: 1%;
+}
 
 /* ------- weather section -------*/
 #weather {

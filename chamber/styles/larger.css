@@ -54,10 +54,31 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-     #to-do {
+    #to-do {
         height: fit-content;
         font-size: 1.7vw;
     }
+
+  #discovery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    padding: 1em;
+    align-items: start;
+  }
+
+  .gallery {
+    grid-column: 1;
+  }
+.population table {
+    margin: 1%;
+    width: 98%;
+    
+}
+
+table {
+    grid-template-columns: 2fr 1fr;
+}
 
     /* ------- Member Directory page ------- */
     .list .dircard {

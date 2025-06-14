@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en-US">
+    
 
 <head>
     <meta charset="UTF-8">
@@ -17,10 +18,11 @@
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet">
-    <meta property="og:title" content="Richmond Akpama - Scoots - WDD 230">
+    <meta property="og:title" content="Richmond Akpama - E-bike - WDD 231">
     <meta property="og:type" content="website">
     <meta property="description"
         content="This is a practice project for the final for WDD 230 - Web Frontend Development course at BYU-Idaho.">
+
 </head>
 <body>
     <section class="nav-frame">
@@ -36,40 +38,57 @@
             <a href="tours.html">Tours</a>
             <a href="contact.html">Contact Us</a>
         </nav>
-
         <!-- hamberger button -->
         <button id="menu" title="Hamburger Menu"></button>
     </section>
     <header>
         <div class="header-banner">
-            <h1>E-BIKE</h1>
-            <h3>E-BIKE Rentals on Cozumel</h3>
+            <h1>SCOOTS</h1>
+            <h2>Scooter Rentals on Cozumel</h2>
+
         </div>
     </header>
     <main>
-        <section class="rentalSection">
-            <h3 class="pageHeads">Information and Services</h3>
-            <div class="servicesDiv">
-               
-                <p>A $50 security deposit is required to confirm reservations.</p>
-                <p>A valid drivers license is required in hand at time of rental.</p>
-                <p>No one under 12 years of age are allowed to ride on the scooters.</p>
-                <p>Fuel charge not included.</p>
-                <p>Unlimited mileage.</p>
-                <p>Liability insurance is free of charge.</p>
-                <p>Reservations rate requires 24 hour prior notification.</p>
-                <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
-                <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
-                <p>Rentals may be returned to either location.</p>
-            </div>
-            <div class="table">
-                <h3>Max Persons and Price Chart (includes tax)</h3>
-            </div>
-        </section>
+        <section class="card2">
+            <h3>Contact Us</h3>
+            <p>Phone: 000-111-2222</p>
+            <p>Email:---------------------------------</p>
+            <p>Address:--------------------------------</p>
 
+            <h3>Work Hours</h3>
+            <p>Monday - Friday: 8:00am - 4:00pm</p>
+            <p>Saturday: 9:00am - 3:00pm</p>
+            <p>Sunday: Not In Service</p>
+        </section>
+        <div class="contactDiv">
+            <h3 class="pageHeads">Fill Form</h3>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <label class="top">
+                        <input type="text" name="completed date" placeholder="Your Name">
+                    </label>
+
+                    <label class="top">
+                        <input type=datalist" list="rentalType" placeholder="Your Email">
+                    </label>
+                    <label class="top">
+                        <label class="top">
+                            <input type=datalist" number="rentalType" placeholder="Phone number">
+                        </label>    
+                        <textarea name="comments" rows="10" cols="40" placeholder="Your Comments"></textarea>
+                    </label>
+                    <input type="submit" value="Send Message" class="submitBtn">
+                </fieldset>
+            </form>
+        </div>
+        <h3>Find us At This Locations</h3>
+            <div id="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8844111106146!2d-86.9526010222286!3d20.510964156425675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59ce994bd445%3A0xd797cfd3533e2594!2sCalle%202%20Nte%20130-146%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939996421!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.983019043143!2d-86.95944857222948!3d20.5069223565692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e575bf05af6c3%3A0x4b08c15518d17561!2sAv.%20Rafael%20E.%20Melgar%20599%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939718113!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
     </main>
     <footer>
-        &copy; Scoots 2025 | Richmond Akpama | WDD 231 Final Project | <a href="https://openweathermap.org/" class="link">openweathermap.org</a>
+        &copy; Scoots 2023 | Richmond Akpama | WDD 230 Final Project | <a href="https://openweathermap.org/" class="link">openweathermap.org</a>
         <div class="social">
             <a href="https://www.facebook.com/"><img class="social-icon" src="images/facebook.png" alt="facebook icon"></a>
             <a href="https://www.instagram.com/"><img class="social-icon" src="images/instagram.png" alt="instagram icon"></a>
@@ -77,9 +96,8 @@
             <a href="https://www.youtube.com/"><img class="social-icon" src="images/youtube.png" alt="youtube icon"></a>
         </div>
     </footer>
-    <script src="scripts/hamburger.js"></script>
-    <script src='scripts/main.js'></script>
-    <script src='scripts/rentals.js'></script>
+    <script src="js/hamburger.js"></script>
+    <script src='js/main.js'></script>
 </body>
 
 </html>

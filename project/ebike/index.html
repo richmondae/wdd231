@@ -1,0 +1,117 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Ebike Home | Reservations | Rentals | Tour | Contactus</title>
+    <meta name="author" content="Richmond Akpama">
+    <meta name="description"
+        content="This is a practice project for the final for WDD 231 - Web Frontend Development 1 course at BYU-Idaho.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Underdog&display=swap" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <meta property="og:title" content="Richmond Akpama - Ebike - WDD 231">
+    <meta property="og:type" content="website">
+    <meta property="description"
+        content="This is a practice project for the final for WDD 231 - Web Frontend Development 1 course at BYU-Idaho.">
+</head>
+<body>
+    <section class="nav-frame">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="images/ebike_logo.png" alt="logo"/>
+            </a>
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="rentals.html">Rentals</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="tours.html">Tours</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <!-- hamberger button -->
+        <button id="menu" title="Hamburger Menu"></button>
+    </section>
+    <header>
+        <div class="header-banner">
+            <h1>E-BIKE</h1>
+            <h2>E-BIKE Rentals</h2>
+
+            <a class='book' href="reservations.html">MAKE A RESERVATION</a>
+        </div> 
+    </header>
+    
+    <main>
+        <section class="homeInfoSection">
+            <div class="card">
+    <img class="infoImg" src="images/black bike.jpeg" alt="E-bike image">
+    <div class="container">
+        <h3><b>URBAN E-BIKES</b></h3>
+        <p>Rad Power RadCity 5 Plus<br>Up to 45 miles per charge<br>Step-through frame<br>1 rider</p>
+        <p>Lectric XP 3.0<br>Foldable design<br>7-speed gear<br>1 rider</p>
+        <a href="/project/ebike/reservations.html" class="button">MAKE A RESERVATION</a>
+    </div>
+</div>
+
+<div class="card">
+    <img class="infoImg" src="images/brown seat bike.jpeg" alt="electric cruiser bike">
+    <div class="container">
+        <h3><b>CRUISER E-BIKES</b></h3>
+        <p>Sixthreezero AroundtheBlock<br>250W motor<br>Comfort seat & handlebars<br>1 rider</p>
+        <p>Aventon Pace 500<br>28 MPH top speed<br>Hydraulic disc brakes<br>1 rider</p>
+        <a href="/project/ebike/reservations.html" class="button">MAKE A RESERVATION</a>
+    </div>
+</div>
+
+<div class="card">
+    <img class="infoImg" src="images/man on orange bike.jpeg" alt="fat tire e-bike">
+    <div class="container">
+        <h3><b>ALL-TERRAIN E-BIKES</b></h3>
+        <p>Himiway Cruiser<br>Fat tires for off-road<br>60+ mile range<br>1 rider</p>
+        <p>Ecotric Fat Tire E-Bike<br>Mountain ready<br>500W motor<br>1 rider</p>
+        <a href="/project/ebike/reservations.html" class="button">MAKE A RESERVATION</a>
+    </div>
+</div>
+
+
+        </section>
+        <section class="weatherSection">
+            <div class="weatherSummary">
+                <h4>Today's Weather</h4>
+                <span>Currently: </span><span id="condition">Cloudy</span><br>
+                <span>Temperature: </span><span id="temp">50</span><br>
+                <span>Humidity: </span><span id="humidity">69</span><br>
+                <span>Wind Speed: </span><span id="windspeed">8</span><br>
+            </div>
+
+            <div class="weatherSummary">
+                <h4>Tommorow's Weather</h4>
+                <p> 
+                    <figure>
+                        <p>Temp: <span id="current-temp"></span></p>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption id="condition"></figcaption>
+                        <span></span><br>
+                    </figure>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; E-bike 2025 | Richmond Akpama | WDD 231 Final Project | <a href="https://openweathermap.org/" class="link">openweathermap.org</a>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img class="social-icon" src="images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/"><img class="social-icon" src="images/instagram.png" alt="instagram icon"></a>
+            <a href="https://www.twitter.com/"><img class="social-icon" src="images/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.youtube.com/"><img class="social-icon" src="images/youtube.png" alt="youtube icon"></a>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/forecast.js"></script>
+</body>
+</html>

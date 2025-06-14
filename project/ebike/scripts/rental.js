@@ -1,4 +1,4 @@
-const requestURL = 'https://richmondae.github.io/project/ebike/data/rent.json';
+const requestURL = 'https://richmondae.github.io/wdd231/project/ebike/data/rent.json';
 
 fetch(requestURL)
     .then(response => response.json())
